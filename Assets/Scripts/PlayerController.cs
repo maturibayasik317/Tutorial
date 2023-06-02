@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public int score = 0;//スコア。
     private float horizontalInput;
     [SerializeField] private float speed;
     [SerializeField] private float xRange;
